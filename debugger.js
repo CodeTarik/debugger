@@ -1,11 +1,11 @@
 let count = 0;
 
 function init(){
-    debuggerOutput('A');
-    debuggerOutput('A');
     testOne();
-    debuggerOutput('A');
-    debuggerOutput('A');
+    debuggerOutput('init');
+    testOne();
+    testTwo('testTwo');
+    testOne();
 }
 
 function testOne(){
