@@ -9,17 +9,12 @@ function init(){
 }
 
 function testOne(){
-    debuggerOutput('B');
-    debuggerOutput('B');
-    testTwo();
-    debuggerOutput('B');
-    debuggerOutput('B');
+    debuggerOutput('testOne');
 }
 
 function testTwo(){
-    debuggerOutput('C');
-    debuggerOutput('C');
-    debuggerOutput('C');
+    debuggerOutput(text);
+    testOne();
 }
 
 function debuggerOutput(text){
@@ -27,3 +22,4 @@ function debuggerOutput(text){
     let debuggerLogRef = document.getElementById('debugger_log');
     debuggerLogRef.innerHTML += " " + text + count; //"+=" damit wird es immer dran gehängt bzw. zusätzlich nochmal eingefügt
 }
+
