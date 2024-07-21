@@ -20,6 +20,6 @@ function testTwo(){
 function debuggerOutput(text){
     count++;
     let debuggerLogRef = document.getElementById('debugger_log');
-    debuggerLogRef.innerHTML += " " + text + count; //"+=" damit wird es immer dran gehängt bzw. zusätzlich nochmal eingefügt
+    debuggerLogRef.innerHTML += text + count; //"+=" damit wird es immer dran gehängt bzw. zusätzlich nochmal eingefügt
 }
 
