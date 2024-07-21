@@ -1,11 +1,8 @@
 
-
+let testScopeVar = "hello world";
 
 function scopeTest(){
-    
-    if(true){   
-        let testScopeVar = "hello world";
-        console.log(testScopeVar);
-    }
+    console.log(testScopeVar);
+   
     
 }    
