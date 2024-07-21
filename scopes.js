@@ -1,7 +1,7 @@
 
-let testScopeVar = "hello world"; //here it is defined globally - that's how it would work
 
 function scopeTest(){
+    let testScopeVar = "hello world"; //
     scopeTestSecond();
 }    
 
